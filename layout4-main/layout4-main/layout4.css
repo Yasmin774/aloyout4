@@ -1,0 +1,94 @@
+/*Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color:orange;
+    width: 100vw;
+    height: 10vh;
+    color: white;
+}
+
+div {
+    display: flex;
+}
+
+.esquerda {
+    height: 80vh;
+    width: 15vw;
+    background-color: rgb(204, 163, 88);
+}
+
+main {
+    height: 80vh;
+    width: 70vw;
+    background-color:rgb(212, 49, 76);
+}
+
+.direita {
+    height: 80vh;
+    width: 15vw;
+    background-color:rgb(204, 163, 88);
+}
+
+.rodape{
+ height:10vh ;
+ width:100vw ;
+ background-color:rgb(248, 188, 76) ;
+ color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .esquerda {
+        display: none;
+    }
+
+    .direita {
+        display: none;
+    }
+
+    main {
+        width: 100vw;
+    }
+}
+
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.section-2 h2 {
+    color: rgb(233, 220, 220);
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    color: white;
+
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--bg-body);
+    width: 100px;
+    height: 100px;
+    border: radius 100px;
+    color: white;
+}
+
